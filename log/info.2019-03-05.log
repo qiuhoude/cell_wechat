@@ -1,0 +1,504 @@
+2019-03-05 14:00:21,435 - Starting LoggerTest on USER-20151024GP with PID 1492 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 14:00:21,439 - No active profile set, falling back to default profiles: default
+2019-03-05 14:00:22,133 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 14:00:22,163 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 14:00:22,165 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-05 14:00:22,184 - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-03-05 14:00:22,551 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fdb646fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-05 14:00:23,290 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-05 14:00:24,102 - Started LoggerTest in 3.338 seconds (JVM running for 4.443)
+2019-03-05 14:00:24,276 - info...
+2019-03-05 14:00:24,276 - warn...
+2019-03-05 14:00:24,294 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-05 14:56:45,932 - Starting ProductCategoryRepositoryTest on USER-20151024GP with PID 7360 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 14:56:45,965 - No active profile set, falling back to default profiles: default
+2019-03-05 14:56:46,025 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5b799640: startup date [Tue Mar 05 14:56:46 CST 2019]; root of context hierarchy
+2019-03-05 14:56:46,387 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 14:56:46,772 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 14:56:46,805 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 14:56:46,844 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 14:56:46,862 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 14:57:08,775 - Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:339)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$c0b0b3d0.CGLIB$jpaVendorAdapter$5(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$c0b0b3d0$$FastClassBySpringCGLIB$$c3eb12d6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$c0b0b3d0.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	... 84 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 85 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 108 common frames omitted
+2019-03-05 14:57:29,824 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 14:57:29,837 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 14:57:29,899 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 14:57:29,900 - HHH000206: hibernate.properties not found
+2019-03-05 14:57:29,901 - HHH000021: Bytecode provider name : javassist
+2019-03-05 14:57:29,969 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 14:57:51,089 - HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2019-03-05 14:57:51,091 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2019-03-05 14:57:51,107 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-03-05 14:58:20,960 - Starting ProductCategoryRepositoryTest on USER-20151024GP with PID 10212 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 14:58:20,961 - No active profile set, falling back to default profiles: default
+2019-03-05 14:58:20,988 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5b799640: startup date [Tue Mar 05 14:58:20 CST 2019]; root of context hierarchy
+2019-03-05 14:58:21,357 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 14:58:21,712 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 14:58:21,745 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 14:58:21,786 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 14:58:21,803 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 14:58:23,020 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 14:58:23,033 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 14:58:23,090 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 14:58:23,091 - HHH000206: hibernate.properties not found
+2019-03-05 14:58:23,093 - HHH000021: Bytecode provider name : javassist
+2019-03-05 14:58:23,128 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 14:58:23,229 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 14:58:23,867 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 14:58:24,693 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5b799640: startup date [Tue Mar 05 14:58:20 CST 2019]; root of context hierarchy
+2019-03-05 14:58:24,762 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 14:58:24,763 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 14:58:24,792 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 14:58:24,792 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 14:58:24,834 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 14:58:25,307 - Started ProductCategoryRepositoryTest in 5.058 seconds (JVM running for 5.813)
+2019-03-05 14:58:25,356 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5b799640: startup date [Tue Mar 05 14:58:20 CST 2019]; root of context hierarchy
+2019-03-05 14:58:25,364 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 14:58:50,971 - Starting ProductCategoryRepositoryTest on USER-20151024GP with PID 9408 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 14:58:50,971 - No active profile set, falling back to default profiles: default
+2019-03-05 14:58:51,033 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4e5ed836: startup date [Tue Mar 05 14:58:51 CST 2019]; root of context hierarchy
+2019-03-05 14:58:52,034 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 14:58:52,206 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 14:58:52,244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 14:58:52,311 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 14:58:52,330 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 14:58:53,335 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 14:58:53,348 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 14:58:53,405 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 14:58:53,406 - HHH000206: hibernate.properties not found
+2019-03-05 14:58:53,407 - HHH000021: Bytecode provider name : javassist
+2019-03-05 14:58:53,443 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 14:58:53,540 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 14:58:54,112 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 14:58:54,771 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4e5ed836: startup date [Tue Mar 05 14:58:51 CST 2019]; root of context hierarchy
+2019-03-05 14:58:54,851 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 14:58:54,852 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 14:58:54,881 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 14:58:54,881 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 14:58:54,925 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 14:58:55,377 - Started ProductCategoryRepositoryTest in 4.985 seconds (JVM running for 5.684)
+2019-03-05 14:58:55,518 - Closing org.springframework.web.context.support.GenericWebApplicationContext@4e5ed836: startup date [Tue Mar 05 14:58:51 CST 2019]; root of context hierarchy
+2019-03-05 14:58:55,521 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:01:26,297 - Starting ProductCategoryRepositoryTest on USER-20151024GP with PID 10348 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:01:26,298 - No active profile set, falling back to default profiles: default
+2019-03-05 15:01:26,336 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4d1bf319: startup date [Tue Mar 05 15:01:26 CST 2019]; root of context hierarchy
+2019-03-05 15:01:26,774 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:01:27,248 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:01:27,286 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:01:27,326 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:01:27,343 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:01:28,358 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:01:28,372 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:01:28,434 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:01:28,436 - HHH000206: hibernate.properties not found
+2019-03-05 15:01:28,437 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:01:28,475 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:01:28,576 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:01:29,198 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:01:29,864 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4d1bf319: startup date [Tue Mar 05 15:01:26 CST 2019]; root of context hierarchy
+2019-03-05 15:01:29,951 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:01:29,952 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:01:29,980 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:01:29,981 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:01:30,025 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:01:30,540 - Started ProductCategoryRepositoryTest in 4.783 seconds (JVM running for 5.501)
+2019-03-05 15:01:30,663 - Closing org.springframework.web.context.support.GenericWebApplicationContext@4d1bf319: startup date [Tue Mar 05 15:01:26 CST 2019]; root of context hierarchy
+2019-03-05 15:01:30,666 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:01:34,199 - Starting ProductCategoryRepositoryTest on USER-20151024GP with PID 3732 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:01:34,200 - No active profile set, falling back to default profiles: default
+2019-03-05 15:01:34,229 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4e5ed836: startup date [Tue Mar 05 15:01:34 CST 2019]; root of context hierarchy
+2019-03-05 15:01:34,713 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:01:34,891 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:01:34,920 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:01:34,954 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:01:34,967 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:01:35,988 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:01:36,011 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:01:36,076 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:01:36,078 - HHH000206: hibernate.properties not found
+2019-03-05 15:01:36,079 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:01:36,114 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:01:36,213 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:01:36,786 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:01:37,406 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4e5ed836: startup date [Tue Mar 05 15:01:34 CST 2019]; root of context hierarchy
+2019-03-05 15:01:37,473 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:01:37,474 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:01:37,500 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:01:37,500 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:01:37,535 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:01:37,988 - Started ProductCategoryRepositoryTest in 4.399 seconds (JVM running for 5.252)
+2019-03-05 15:01:38,092 - Closing org.springframework.web.context.support.GenericWebApplicationContext@4e5ed836: startup date [Tue Mar 05 15:01:34 CST 2019]; root of context hierarchy
+2019-03-05 15:01:38,095 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:05:29,387 - Starting ProductCategoryRepositoryTest on USER-20151024GP with PID 9600 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:05:29,387 - No active profile set, falling back to default profiles: default
+2019-03-05 15:05:29,423 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:05:29 CST 2019]; root of context hierarchy
+2019-03-05 15:05:29,690 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:05:30,096 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:05:30,131 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:05:30,170 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:05:30,185 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:05:31,161 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:05:31,174 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:05:31,235 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:05:31,237 - HHH000206: hibernate.properties not found
+2019-03-05 15:05:31,238 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:05:31,275 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:05:31,380 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:05:32,013 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:05:32,636 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:05:29 CST 2019]; root of context hierarchy
+2019-03-05 15:05:32,705 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:05:32,706 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:05:32,732 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:05:32,733 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:05:32,770 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:05:33,222 - Started ProductCategoryRepositoryTest in 4.632 seconds (JVM running for 5.402)
+2019-03-05 15:05:33,339 - Closing org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:05:29 CST 2019]; root of context hierarchy
+2019-03-05 15:05:33,343 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:07:12,887 - Starting ProductCategoryRepositoryTest on USER-20151024GP with PID 11228 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:07:12,890 - No active profile set, falling back to default profiles: default
+2019-03-05 15:07:12,927 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:07:12 CST 2019]; root of context hierarchy
+2019-03-05 15:07:13,599 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:07:13,755 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:07:13,785 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:07:13,825 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:07:13,840 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:07:14,861 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:07:14,880 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:07:14,952 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:07:14,954 - HHH000206: hibernate.properties not found
+2019-03-05 15:07:14,955 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:07:14,990 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:07:15,090 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:07:15,739 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:07:16,388 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:07:12 CST 2019]; root of context hierarchy
+2019-03-05 15:07:16,461 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:07:16,462 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:07:16,489 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:07:16,489 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:07:16,523 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:07:16,993 - Started ProductCategoryRepositoryTest in 4.696 seconds (JVM running for 5.469)
+2019-03-05 15:07:17,038 - Began transaction (1) for test context [DefaultTestContext@15d9bc04 testClass = ProductCategoryRepositoryTest, testInstance = com.houde.cell.repository.ProductCategoryRepositoryTest@7e31062c, testMethod = saveTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@473b46c3 testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.houde.cell.CellWechatApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@544fe44c, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@21213b92, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1f28c152], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1fcaea93]; rollback [true]
+2019-03-05 15:07:17,130 - Rolled back transaction for test context [DefaultTestContext@15d9bc04 testClass = ProductCategoryRepositoryTest, testInstance = com.houde.cell.repository.ProductCategoryRepositoryTest@7e31062c, testMethod = saveTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@473b46c3 testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.houde.cell.CellWechatApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@544fe44c, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@21213b92, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1f28c152], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]].
+2019-03-05 15:07:17,133 - Closing org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:07:12 CST 2019]; root of context hierarchy
+2019-03-05 15:07:17,137 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:08:30,712 - Starting ProductCategoryRepositoryTest on USER-20151024GP with PID 10492 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:08:30,713 - No active profile set, falling back to default profiles: default
+2019-03-05 15:08:30,738 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:08:30 CST 2019]; root of context hierarchy
+2019-03-05 15:08:31,380 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:08:31,490 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:08:31,525 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:08:31,567 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:08:31,588 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:08:32,551 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:08:32,564 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:08:32,625 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:08:32,626 - HHH000206: hibernate.properties not found
+2019-03-05 15:08:32,627 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:08:32,663 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:08:32,758 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:08:33,338 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:08:34,012 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:08:30 CST 2019]; root of context hierarchy
+2019-03-05 15:08:34,101 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:08:34,102 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:08:34,132 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:08:34,133 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:08:34,173 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:08:34,669 - Started ProductCategoryRepositoryTest in 4.572 seconds (JVM running for 5.394)
+2019-03-05 15:08:34,746 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 15:08:34,922 - Closing org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:08:30 CST 2019]; root of context hierarchy
+2019-03-05 15:08:34,931 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:09:30,444 - Starting ProductCategoryRepositoryTest on USER-20151024GP with PID 8528 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:09:30,445 - No active profile set, falling back to default profiles: default
+2019-03-05 15:09:30,487 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:09:30 CST 2019]; root of context hierarchy
+2019-03-05 15:09:30,987 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:09:31,163 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:09:31,194 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:09:31,231 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:09:31,245 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:09:32,224 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:09:32,239 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:09:32,304 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:09:32,305 - HHH000206: hibernate.properties not found
+2019-03-05 15:09:32,307 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:09:32,343 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:09:32,447 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:09:33,043 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:09:33,665 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:09:30 CST 2019]; root of context hierarchy
+2019-03-05 15:09:33,731 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:09:33,733 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:09:33,759 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:09:33,759 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:09:33,790 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:09:34,253 - Started ProductCategoryRepositoryTest in 4.465 seconds (JVM running for 5.381)
+2019-03-05 15:09:34,336 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 15:09:34,509 - Closing org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:09:30 CST 2019]; root of context hierarchy
+2019-03-05 15:09:34,520 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:09:57,019 - Starting ProductCategoryRepositoryTest on USER-20151024GP with PID 1888 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:09:57,020 - No active profile set, falling back to default profiles: default
+2019-03-05 15:09:57,059 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@48c35007: startup date [Tue Mar 05 15:09:57 CST 2019]; root of context hierarchy
+2019-03-05 15:09:57,526 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:09:57,806 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:09:57,847 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:09:57,886 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:09:57,901 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:09:59,080 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:09:59,096 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:09:59,158 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:09:59,160 - HHH000206: hibernate.properties not found
+2019-03-05 15:09:59,161 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:09:59,201 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:09:59,406 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:09:59,934 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:10:00,715 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@48c35007: startup date [Tue Mar 05 15:09:57 CST 2019]; root of context hierarchy
+2019-03-05 15:10:00,841 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:10:00,843 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:10:00,881 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:10:00,881 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:10:00,933 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:10:01,537 - Started ProductCategoryRepositoryTest in 4.908 seconds (JVM running for 6.343)
+2019-03-05 15:10:06,290 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 15:15:49,777 - Starting CategoryServiceImplTest on USER-20151024GP with PID 7432 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:15:49,777 - No active profile set, falling back to default profiles: default
+2019-03-05 15:15:49,823 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6f53b8a: startup date [Tue Mar 05 15:15:49 CST 2019]; root of context hierarchy
+2019-03-05 15:15:50,449 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:15:50,654 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:15:50,686 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:15:50,732 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:15:50,750 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:15:51,743 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:15:51,757 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:15:51,814 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:15:51,815 - HHH000206: hibernate.properties not found
+2019-03-05 15:15:51,817 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:15:51,852 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:15:51,949 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:15:52,510 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:15:53,198 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6f53b8a: startup date [Tue Mar 05 15:15:49 CST 2019]; root of context hierarchy
+2019-03-05 15:15:53,270 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:15:53,271 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:15:53,300 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:15:53,300 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:15:53,340 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:15:53,818 - Started CategoryServiceImplTest in 4.559 seconds (JVM running for 5.402)
+2019-03-05 15:15:53,904 - Closing org.springframework.web.context.support.GenericWebApplicationContext@6f53b8a: startup date [Tue Mar 05 15:15:49 CST 2019]; root of context hierarchy
+2019-03-05 15:15:53,907 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:17:33,750 - Starting CategoryServiceImplTest on USER-20151024GP with PID 10116 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:17:33,750 - No active profile set, falling back to default profiles: default
+2019-03-05 15:17:33,818 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6f53b8a: startup date [Tue Mar 05 15:17:33 CST 2019]; root of context hierarchy
+2019-03-05 15:17:34,343 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:17:34,922 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:17:34,951 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:17:34,992 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:17:35,010 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:17:36,119 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:17:36,133 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:17:36,194 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:17:36,195 - HHH000206: hibernate.properties not found
+2019-03-05 15:17:36,196 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:17:36,231 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:17:36,327 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:17:36,927 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:17:37,607 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6f53b8a: startup date [Tue Mar 05 15:17:33 CST 2019]; root of context hierarchy
+2019-03-05 15:17:37,677 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:17:37,678 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:17:37,707 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:17:37,708 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:17:37,746 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:17:38,194 - Started CategoryServiceImplTest in 5.138 seconds (JVM running for 6.001)
+2019-03-05 15:17:38,249 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 15:17:38,386 - Closing org.springframework.web.context.support.GenericWebApplicationContext@6f53b8a: startup date [Tue Mar 05 15:17:33 CST 2019]; root of context hierarchy
+2019-03-05 15:17:38,390 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:17:50,025 - Starting CategoryServiceImplTest on USER-20151024GP with PID 10656 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:17:50,028 - No active profile set, falling back to default profiles: default
+2019-03-05 15:17:50,065 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6f53b8a: startup date [Tue Mar 05 15:17:50 CST 2019]; root of context hierarchy
+2019-03-05 15:17:50,545 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:17:50,958 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:17:50,996 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:17:51,040 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:17:51,062 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:17:52,032 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:17:52,045 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:17:52,107 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:17:52,108 - HHH000206: hibernate.properties not found
+2019-03-05 15:17:52,110 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:17:52,145 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:17:52,244 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:17:52,813 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:17:53,486 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6f53b8a: startup date [Tue Mar 05 15:17:50 CST 2019]; root of context hierarchy
+2019-03-05 15:17:53,558 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:17:53,559 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:17:53,586 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:17:53,587 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:17:53,622 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:17:54,066 - Started CategoryServiceImplTest in 4.616 seconds (JVM running for 5.363)
+2019-03-05 15:17:54,159 - Closing org.springframework.web.context.support.GenericWebApplicationContext@6f53b8a: startup date [Tue Mar 05 15:17:50 CST 2019]; root of context hierarchy
+2019-03-05 15:17:54,163 - Closing JPA EntityManagerFactory for persistence unit 'default'
