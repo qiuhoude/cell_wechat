@@ -7,8 +7,9 @@ spring:
 jpa:
   show-sql: true
 
-
-
+server:
+  port: 8080
+  context-path: /sell
 
 
 
@@ -21,3 +22,4 @@ jpa:
 #  file: ./cell.log
 #  level: debug
 #    com.houde.cell.LoggerTest: debug
+

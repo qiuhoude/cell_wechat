@@ -502,3 +502,357 @@ Error starting ApplicationContext. To display the auto-configuration report re-r
 2019-03-05 15:17:54,066 - Started CategoryServiceImplTest in 4.616 seconds (JVM running for 5.363)
 2019-03-05 15:17:54,159 - Closing org.springframework.web.context.support.GenericWebApplicationContext@6f53b8a: startup date [Tue Mar 05 15:17:50 CST 2019]; root of context hierarchy
 2019-03-05 15:17:54,163 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:33:54,117 - Starting ProductInfoRepositoryTest on USER-20151024GP with PID 5124 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:33:54,118 - No active profile set, falling back to default profiles: default
+2019-03-05 15:33:54,151 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:33:54 CST 2019]; root of context hierarchy
+2019-03-05 15:33:54,616 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:33:54,883 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:33:54,914 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:33:54,974 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:33:55,009 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:33:55,009 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductInfoRepository.
+2019-03-05 15:33:56,062 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:33:56,077 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:33:56,158 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:33:56,160 - HHH000206: hibernate.properties not found
+2019-03-05 15:33:56,161 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:33:56,197 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:33:56,297 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:33:56,902 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:33:57,558 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:33:54 CST 2019]; root of context hierarchy
+2019-03-05 15:33:57,630 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:33:57,631 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:33:57,693 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:33:57,693 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:33:57,754 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:33:58,216 - Started ProductInfoRepositoryTest in 4.755 seconds (JVM running for 5.584)
+2019-03-05 15:33:58,321 - Closing org.springframework.web.context.support.GenericWebApplicationContext@3cce5371: startup date [Tue Mar 05 15:33:54 CST 2019]; root of context hierarchy
+2019-03-05 15:33:58,325 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:35:45,604 - Starting ProductInfoRepositoryTest on USER-20151024GP with PID 8856 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:35:45,604 - No active profile set, falling back to default profiles: default
+2019-03-05 15:35:45,668 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@17bffc17: startup date [Tue Mar 05 15:35:45 CST 2019]; root of context hierarchy
+2019-03-05 15:35:46,061 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:35:46,486 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:35:46,528 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:35:46,576 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:35:46,595 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:35:46,597 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductInfoRepository.
+2019-03-05 15:35:47,565 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:35:47,578 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:35:47,638 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:35:47,639 - HHH000206: hibernate.properties not found
+2019-03-05 15:35:47,640 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:35:47,676 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:35:47,778 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:35:48,383 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:35:49,009 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@17bffc17: startup date [Tue Mar 05 15:35:45 CST 2019]; root of context hierarchy
+2019-03-05 15:35:49,083 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:35:49,084 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:35:49,112 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:35:49,112 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:35:49,147 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:35:49,595 - Started ProductInfoRepositoryTest in 4.675 seconds (JVM running for 5.52)
+2019-03-05 15:35:49,650 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 15:35:49,786 - Closing org.springframework.web.context.support.GenericWebApplicationContext@17bffc17: startup date [Tue Mar 05 15:35:45 CST 2019]; root of context hierarchy
+2019-03-05 15:35:49,789 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:41:38,458 - Starting ProductServiceImplTest on USER-20151024GP with PID 7212 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:41:38,458 - No active profile set, falling back to default profiles: default
+2019-03-05 15:41:38,501 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4007f65e: startup date [Tue Mar 05 15:41:38 CST 2019]; root of context hierarchy
+2019-03-05 15:41:38,864 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:41:39,460 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:41:39,497 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:41:39,562 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:41:39,613 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:41:39,615 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductInfoRepository.
+2019-03-05 15:41:40,779 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:41:40,795 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:41:40,874 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:41:40,875 - HHH000206: hibernate.properties not found
+2019-03-05 15:41:40,876 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:41:40,913 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:41:41,011 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:41:41,813 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:41:42,437 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4007f65e: startup date [Tue Mar 05 15:41:38 CST 2019]; root of context hierarchy
+2019-03-05 15:41:42,508 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:41:42,508 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:41:42,534 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:41:42,534 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:41:42,567 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:41:42,972 - Started ProductServiceImplTest in 5.095 seconds (JVM running for 5.85)
+2019-03-05 15:41:43,064 - Closing org.springframework.web.context.support.GenericWebApplicationContext@4007f65e: startup date [Tue Mar 05 15:41:38 CST 2019]; root of context hierarchy
+2019-03-05 15:41:43,068 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:43:38,871 - Starting ProductServiceImplTest on USER-20151024GP with PID 7604 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:43:38,872 - No active profile set, falling back to default profiles: default
+2019-03-05 15:43:38,908 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@65987993: startup date [Tue Mar 05 15:43:38 CST 2019]; root of context hierarchy
+2019-03-05 15:43:39,494 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:43:39,669 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:43:39,718 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:43:39,785 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:43:39,806 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:43:39,807 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductInfoRepository.
+2019-03-05 15:43:40,864 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:43:40,877 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:43:40,948 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:43:40,950 - HHH000206: hibernate.properties not found
+2019-03-05 15:43:40,951 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:43:40,989 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:43:41,102 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:43:41,752 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:43:42,401 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@65987993: startup date [Tue Mar 05 15:43:38 CST 2019]; root of context hierarchy
+2019-03-05 15:43:42,471 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:43:42,472 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:43:42,503 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:43:42,503 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:43:42,538 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:43:42,982 - Started ProductServiceImplTest in 4.774 seconds (JVM running for 5.586)
+2019-03-05 15:43:43,041 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 15:43:43,199 - Closing org.springframework.web.context.support.GenericWebApplicationContext@65987993: startup date [Tue Mar 05 15:43:38 CST 2019]; root of context hierarchy
+2019-03-05 15:43:43,209 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:43:51,080 - Starting ProductServiceImplTest on USER-20151024GP with PID 6240 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:43:51,081 - No active profile set, falling back to default profiles: default
+2019-03-05 15:43:51,116 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6cb107fd: startup date [Tue Mar 05 15:43:51 CST 2019]; root of context hierarchy
+2019-03-05 15:43:51,502 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:43:51,932 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:43:51,968 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:43:52,031 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:43:52,053 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:43:52,054 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductInfoRepository.
+2019-03-05 15:43:53,067 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:43:53,080 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:43:53,144 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:43:53,145 - HHH000206: hibernate.properties not found
+2019-03-05 15:43:53,146 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:43:53,190 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:43:53,290 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:43:53,851 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:43:54,454 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6cb107fd: startup date [Tue Mar 05 15:43:51 CST 2019]; root of context hierarchy
+2019-03-05 15:43:54,527 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:43:54,528 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:43:54,555 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:43:54,555 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:43:54,592 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:43:55,040 - Started ProductServiceImplTest in 4.553 seconds (JVM running for 5.312)
+2019-03-05 15:43:55,098 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 15:43:55,223 - Closing org.springframework.web.context.support.GenericWebApplicationContext@6cb107fd: startup date [Tue Mar 05 15:43:51 CST 2019]; root of context hierarchy
+2019-03-05 15:43:55,227 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:44:49,820 - Starting ProductServiceImplTest on USER-20151024GP with PID 8128 (started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:44:49,821 - No active profile set, falling back to default profiles: default
+2019-03-05 15:44:49,869 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6cb107fd: startup date [Tue Mar 05 15:44:49 CST 2019]; root of context hierarchy
+2019-03-05 15:44:50,323 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:44:50,519 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:44:50,549 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:44:50,596 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:44:50,615 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:44:50,615 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductInfoRepository.
+2019-03-05 15:44:51,708 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:44:51,723 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:44:51,796 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:44:51,798 - HHH000206: hibernate.properties not found
+2019-03-05 15:44:51,799 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:44:51,853 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:44:51,967 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:44:52,534 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:44:53,189 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6cb107fd: startup date [Tue Mar 05 15:44:49 CST 2019]; root of context hierarchy
+2019-03-05 15:44:53,260 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:44:53,260 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:44:53,290 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:44:53,290 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:44:53,330 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:44:53,798 - Started ProductServiceImplTest in 4.689 seconds (JVM running for 5.546)
+2019-03-05 15:44:53,908 - Closing org.springframework.web.context.support.GenericWebApplicationContext@6cb107fd: startup date [Tue Mar 05 15:44:49 CST 2019]; root of context hierarchy
+2019-03-05 15:44:53,912 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:50:52,726 - Starting CellWechatApplication on USER-20151024GP with PID 10664 (E:\project\github_project\cell_wechat\target\classes started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:50:52,728 - No active profile set, falling back to default profiles: default
+2019-03-05 15:50:52,789 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b81ce95: startup date [Tue Mar 05 15:50:52 CST 2019]; root of context hierarchy
+2019-03-05 15:50:53,025 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:50:53,359 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:50:53,396 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:50:53,435 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:50:53,450 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:50:53,450 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductInfoRepository.
+2019-03-05 15:50:53,936 - Tomcat initialized with port(s): 8080 (http)
+2019-03-05 15:50:53,944 - Starting service Tomcat
+2019-03-05 15:50:53,945 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 15:50:54,052 - Initializing Spring embedded WebApplicationContext
+2019-03-05 15:50:54,052 - Root WebApplicationContext: initialization completed in 1263 ms
+2019-03-05 15:50:54,175 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 15:50:54,178 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 15:50:54,179 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 15:50:54,179 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 15:50:54,179 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 15:50:54,553 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:50:54,562 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:50:54,610 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:50:54,612 - HHH000206: hibernate.properties not found
+2019-03-05 15:50:54,612 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:50:54,641 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:50:54,712 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:50:55,046 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:50:55,380 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b81ce95: startup date [Tue Mar 05 15:50:52 CST 2019]; root of context hierarchy
+2019-03-05 15:50:55,423 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.houde.cell.vo.ResultVO com.houde.cell.controller.BuyerProductController.list()
+2019-03-05 15:50:55,426 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:50:55,427 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:50:55,446 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:50:55,447 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:50:55,470 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:50:55,806 - Registering beans for JMX exposure on startup
+2019-03-05 15:50:55,820 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-05 15:50:55,826 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-05 15:50:55,837 - Using a shared selector for servlet write/read
+2019-03-05 15:50:55,849 - Tomcat started on port(s): 8080 (http)
+2019-03-05 15:50:55,852 - Started CellWechatApplication in 3.527 seconds (JVM running for 4.228)
+2019-03-05 15:51:11,614 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 15:51:11,615 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 15:51:11,635 - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2019-03-05 15:58:38,258 - Starting CellWechatApplication on USER-20151024GP with PID 10964 (E:\project\github_project\cell_wechat\target\classes started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:58:38,260 - No active profile set, falling back to default profiles: default
+2019-03-05 15:58:38,294 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b81ce95: startup date [Tue Mar 05 15:58:38 CST 2019]; root of context hierarchy
+2019-03-05 15:58:38,496 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:58:38,835 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:58:38,873 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:58:38,912 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:58:38,928 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:58:38,929 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductInfoRepository.
+2019-03-05 15:58:39,391 - Tomcat initialized with port(s): 8080 (http)
+2019-03-05 15:58:39,400 - Starting service Tomcat
+2019-03-05 15:58:39,400 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 15:58:39,502 - Initializing Spring embedded WebApplicationContext
+2019-03-05 15:58:39,502 - Root WebApplicationContext: initialization completed in 1208 ms
+2019-03-05 15:58:39,634 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 15:58:39,637 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 15:58:39,638 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 15:58:39,638 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 15:58:39,638 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 15:58:39,995 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:58:40,002 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:58:40,046 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:58:40,047 - HHH000206: hibernate.properties not found
+2019-03-05 15:58:40,047 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:58:40,076 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:58:40,177 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:58:40,532 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:58:40,864 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b81ce95: startup date [Tue Mar 05 15:58:38 CST 2019]; root of context hierarchy
+2019-03-05 15:58:40,906 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.houde.cell.vo.ResultVO com.houde.cell.controller.BuyerProductController.list()
+2019-03-05 15:58:40,909 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:58:40,909 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:58:40,930 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:58:40,930 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:58:40,954 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:58:41,276 - Registering beans for JMX exposure on startup
+2019-03-05 15:58:41,289 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-05 15:58:41,296 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-05 15:58:41,305 - Using a shared selector for servlet write/read
+2019-03-05 15:58:41,317 - Tomcat started on port(s): 8080 (http)
+2019-03-05 15:58:41,321 - Started CellWechatApplication in 3.595 seconds (JVM running for 4.175)
+2019-03-05 15:58:51,501 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 15:58:51,502 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 15:58:51,521 - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2019-03-05 15:58:51,554 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 15:59:23,403 - Starting CellWechatApplication on USER-20151024GP with PID 3056 (E:\project\github_project\cell_wechat\target\classes started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:59:23,406 - No active profile set, falling back to default profiles: default
+2019-03-05 15:59:23,478 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@70f59913: startup date [Tue Mar 05 15:59:23 CST 2019]; root of context hierarchy
+2019-03-05 15:59:23,552 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:59:24,055 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:59:24,088 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:59:24,132 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:59:24,149 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:59:24,149 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductInfoRepository.
+2019-03-05 15:59:24,719 - Tomcat initialized with port(s): 8080 (http)
+2019-03-05 15:59:24,729 - Starting service Tomcat
+2019-03-05 15:59:24,730 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 15:59:24,827 - Initializing Spring embedded WebApplicationContext
+2019-03-05 15:59:24,828 - Root WebApplicationContext: initialization completed in 1350 ms
+2019-03-05 15:59:24,976 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 15:59:24,979 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 15:59:24,980 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 15:59:24,980 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 15:59:24,980 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 15:59:25,396 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:59:25,405 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 15:59:25,455 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 15:59:25,456 - HHH000206: hibernate.properties not found
+2019-03-05 15:59:25,458 - HHH000021: Bytecode provider name : javassist
+2019-03-05 15:59:25,494 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 15:59:25,585 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 15:59:25,999 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 15:59:26,429 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@70f59913: startup date [Tue Mar 05 15:59:23 CST 2019]; root of context hierarchy
+2019-03-05 15:59:26,483 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.houde.cell.vo.ResultVO com.houde.cell.controller.BuyerProductController.list()
+2019-03-05 15:59:26,487 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 15:59:26,488 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 15:59:26,514 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:59:26,514 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:59:26,549 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 15:59:27,056 - Registering beans for JMX exposure on startup
+2019-03-05 15:59:27,072 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-05 15:59:27,080 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-05 15:59:27,091 - Using a shared selector for servlet write/read
+2019-03-05 15:59:27,105 - Tomcat started on port(s): 8080 (http)
+2019-03-05 15:59:27,109 - Started CellWechatApplication in 4.207 seconds (JVM running for 4.875)
+2019-03-05 15:59:32,832 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 15:59:32,832 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 15:59:32,855 - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2019-03-05 15:59:32,890 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 15:59:58,127 - Starting CellWechatApplication on USER-20151024GP with PID 4396 (E:\project\github_project\cell_wechat\target\classes started by Administrator in E:\project\github_project\cell_wechat)
+2019-03-05 15:59:58,132 - No active profile set, falling back to default profiles: default
+2019-03-05 15:59:58,197 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@130e116b: startup date [Tue Mar 05 15:59:58 CST 2019]; root of context hierarchy
+2019-03-05 15:59:58,320 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 15:59:58,710 - No MyBatis mapper was found in '[com.houde.cell]' package. Please check your configuration.
+2019-03-05 15:59:58,747 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:59:58,792 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-05 15:59:58,809 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductCategoryRepository.
+2019-03-05 15:59:58,809 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.houde.cell.repository.ProductInfoRepository.
+2019-03-05 15:59:59,410 - Tomcat initialized with port(s): 8080 (http)
+2019-03-05 15:59:59,419 - Starting service Tomcat
+2019-03-05 15:59:59,419 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 15:59:59,519 - Initializing Spring embedded WebApplicationContext
+2019-03-05 15:59:59,520 - Root WebApplicationContext: initialization completed in 1323 ms
+2019-03-05 15:59:59,676 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 15:59:59,680 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 15:59:59,681 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 15:59:59,681 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 15:59:59,681 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 16:00:00,091 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 16:00:00,101 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 16:00:00,154 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 16:00:00,155 - HHH000206: hibernate.properties not found
+2019-03-05 16:00:00,156 - HHH000021: Bytecode provider name : javassist
+2019-03-05 16:00:00,196 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 16:00:00,291 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 16:00:00,706 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 16:00:01,143 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@130e116b: startup date [Tue Mar 05 15:59:58 CST 2019]; root of context hierarchy
+2019-03-05 16:00:01,200 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.houde.cell.vo.ResultVO com.houde.cell.controller.BuyerProductController.list()
+2019-03-05 16:00:01,204 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 16:00:01,204 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 16:00:01,231 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 16:00:01,232 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 16:00:01,265 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 16:00:01,773 - Registering beans for JMX exposure on startup
+2019-03-05 16:00:01,788 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-05 16:00:01,796 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-05 16:00:01,806 - Using a shared selector for servlet write/read
+2019-03-05 16:00:01,820 - Tomcat started on port(s): 8080 (http)
+2019-03-05 16:00:01,824 - Started CellWechatApplication in 4.332 seconds (JVM running for 5.074)
+2019-03-05 16:00:19,106 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 16:00:19,106 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 16:00:19,133 - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2019-03-05 16:00:19,171 - HHH000397: Using ASTQueryTranslatorFactory
