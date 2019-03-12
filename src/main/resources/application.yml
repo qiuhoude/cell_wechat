@@ -4,9 +4,10 @@ spring:
     username: root
     password: root
     url: jdbc:mysql://127.0.0.1/weixi_cell?characterEncoding=utf-8&useSSL=false
+  jackson:
+    default-property-inclusion: non_null # 统一给DTO对象加上 @JsonInclude(JsonInclude.Include.NON_NULL)
 jpa:
   show-sql: true
-
 server:
   port: 8080
   context-path: /sell
@@ -14,7 +15,7 @@ server:
 
 
 
-############################# log���ò��� #############################
+############################# log配置测试 #############################
 #logging:
 #  pattern:
 #    console: "%d - %msg%n"

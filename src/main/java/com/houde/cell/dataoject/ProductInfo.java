@@ -1,6 +1,8 @@
 package com.houde.cell.dataoject;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.houde.cell.enums.ProductStatusEnum;
+import com.houde.cell.utils.EnumUtil;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
 
@@ -60,8 +62,8 @@ public class ProductInfo {
 
     private Date updateTime;
 
-//    @JsonIgnore
-//    public ProductStatusEnum getProductStatusEnum() {
-//        return EnumUtil.getByCode(productStatus, ProductStatusEnum.class);
-//    }
+    @JsonIgnore
+    public ProductStatusEnum getProductStatusEnum() {
+        return EnumUtil.getByCode(productStatus, ProductStatusEnum.class);
+    }
 }

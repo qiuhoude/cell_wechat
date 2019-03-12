@@ -3,19 +3,20 @@ package com.houde.cell.enums;
 import lombok.Getter;
 
 /**
- * 商品状态
  * Created by houde
- * 2019-03-05 15:27
+ * 2019-03-06 10:59
  */
 @Getter
-public enum ProductStatusEnum implements CodeEnum {
-    UP(0, "在架"),
-    DOWN(1, "下架");
+public enum PayStatusEnum implements CodeEnum {
 
+    WAIT(0, "等待支付"),
+    SUCCESS(1, "支付成功"),
+    ;
     private Integer code;
+
     private String message;
 
-    ProductStatusEnum(Integer code, String message) {
+    PayStatusEnum(Integer code, String message) {
         this.code = code;
         this.message = message;
     }
